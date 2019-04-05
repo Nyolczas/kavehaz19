@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* css reset */
+@import url("https://fonts.googleapis.com/css?family=Lobster&subset=latin-ext");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 100%; }
+
+body {
+  background-image: url(../img/bg-pattern.jpg);
+  background-size: 120px;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-family: 'Georgia', serif; }
+
+/* ue font: */
+@font-face {
+  font-family: arecibo;
+  src: url("../fonts/arecibo.ttf"); }
+
+#fosav {
+  background-image: url("../img/redHead.jpg");
+  background-position: center;
+  background-size: cover; }
+
+#fosav h1 {
+  font-family: arecibo;
+  font-size: 5.5rem;
+  text-align: center;
+  color: #E8DDCC;
+  padding: 70px 0.5rem 0.8rem 0.5rem; }
+
+main {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -150px;
+  /* Pad bottom by footer height */
+  padding: 0 0 150px; }
+
+.bg-dark {
+  background-color: black !important;
+  font-style: italic; }
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #E5C282; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding: 0.06rem 1vw 0px 1vw;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: .2s; }
+
+/* aktív hamburgermenü - kontúr eltüntetés */
+button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
+  border: 1px solid rgba(229, 194, 130, 0.25);
+  outline: none; }
+
+.nav-item {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem; }
+
+.navbar-brand img {
+  height: 2.4rem;
+  margin-top: -0.8rem;
+  margin-right: 3vw;
+  filter: sepia(100%);
+  transition: .2s; }
+
+.navbar-brand img:hover {
+  filter: none; }
+
+@media screen and (max-width: 1024px) {
+  .navbar-brand img {
+    margin-right: 0vw; }
+  .nav-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; } }
+
+@media screen and (max-width: 767px) {
+  .navbar-brand img {
+    padding-left: 0.6rem; } }

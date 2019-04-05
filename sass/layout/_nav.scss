@@ -1,0 +1,57 @@
+.bg-dark {
+    background-color: $color-black!important;
+    font-style: italic;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: $color-gold-light;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $color-white;
+    padding: 0.06rem 1vw 0px 1vw;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: .2s;
+}
+
+/* aktív hamburgermenü - kontúr eltüntetés */
+
+button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
+    border: 1px solid rgba($color-gold-light, 0.25);
+    outline: none;
+}
+
+.nav-item {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.navbar-brand img {
+    height: 2.4rem;
+    margin-top: -0.8rem;
+    margin-right: 3vw;
+    filter: sepia(100%);
+    transition: .2s;
+}
+
+.navbar-brand img:hover {
+
+    filter: none;
+}
+
+@media screen and (max-width:1024px) {
+    .navbar-brand img {
+        margin-right: 0vw;
+    }
+    .nav-item {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .navbar-brand img {
+        padding-left: 0.6rem;
+    }
+}
