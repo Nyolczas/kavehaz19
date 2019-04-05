@@ -1,0 +1,14 @@
+{
+  "name": "kavehaz",
+  "version": "1.0.0",
+  "description": "Utasellátó Kávéház honlapja",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Nyolczas István",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
