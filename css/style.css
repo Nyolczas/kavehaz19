@@ -25,8 +25,114 @@ html, body {
   font-family: arecibo;
   src: url("../fonts/arecibo.ttf"); }
 
+.cim h2 {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  margin-bottom: 2.5rem; }
+
+@media screen and (min-width: 768px) {
+  .cim h2 {
+    text-align: center; } }
+
+.jumbotron h3, .jumbotron h4 {
+  font-family: 'Lobster', cursive;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem; }
+
+.kenyer {
+  margin: 1.5rem 0; }
+
+.show {
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  .show {
+    display: block; } }
+
+a:hover {
+  text-decoration: none; }
+
+.balrazar {
+  text-align: left; }
+
+.jobbrazar {
+  text-align: right;
+  display: table;
+  margin: auto; }
+
+.dolt {
+  font-style: italic; }
+
+.keret {
+  border: 2px solid #634115;
+  margin-bottom: 2.5rem;
+  padding: 0; }
+
+.keret2 {
+  border: 1px solid #af8e65;
+  margin: 6px;
+  padding: 1rem 1.5rem 2rem 1.5rem; }
+
+hr {
+  border-color: #E5C282; }
+
+.deko-side {
+  margin: -0.3rem 0.5rem 0 0.5rem;
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  .cim .deko-side {
+    display: inline; } }
+
+.deko-side-constant {
+  margin: -0.3rem 0.5rem 0 0.5rem; }
+
+.deko-hori {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 100%; }
+
+.footer {
+  height: 170px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 8px; }
+
+.footerline {
+  margin: 12px;
+  transition: .2s; }
+  .footerline #vasuttori {
+    color: white; }
+  .footerline #tatai {
+    font-weight: 600;
+    color: white; }
+
+/* Facebook */
+.fa {
+  padding: 8px;
+  font-size: 15px;
+  width: 32px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  border-radius: 50%;
+  transition: .2s; }
+
+.fa:hover, #tatai:hover {
+  color: rgba(255, 255, 255, 0.7); }
+
+.fa:hover {
+  background: #3B5998;
+  color: white; }
+
+.footerline p {
+  font-size: 0.82rem;
+  color: #E5C282; }
+
 #fosav {
-  background-image: url("../img/redHead.jpg");
+  background-image: url(../img/redHead.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -37,11 +143,22 @@ html, body {
   color: #E8DDCC;
   padding: 70px 0.5rem 0.8rem 0.5rem; }
 
+.jumbotron {
+  background-color: #E8DDCC;
+  color: #634115;
+  font-family: 'Georgia', serif;
+  text-align: center; }
+
+.jumbokep {
+  width: calc(100% - 12px);
+  margin: 6px;
+  border: 1px solid #af8e65; }
+
 main {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
-  margin: 0 auto -150px;
+  margin: 0 auto -170px;
   /* Pad bottom by footer height */
   padding: 0 0 150px; }
 

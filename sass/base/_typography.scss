@@ -5,3 +5,26 @@
     font-family: arecibo;
     src: url('../fonts/arecibo.ttf');
 }
+
+.cim h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .cim h2 {
+        text-align: center;
+    }
+}
+
+.jumbotron h3, .jumbotron h4 {
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.kenyer {
+    margin: 1.5rem 0;
+}

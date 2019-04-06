@@ -1,0 +1,12 @@
+.jumbotron {
+    background-color: $color-vaj;
+    color: $color-csoki;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.jumbokep {
+    width: calc(100% - 12px);
+    margin: 6px;
+    border: 1px solid $color-mogyoro;
+}

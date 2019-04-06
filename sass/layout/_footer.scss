@@ -1,0 +1,47 @@
+.footer {
+    height: $footer-height;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.footerline {
+    margin: 12px;
+    transition: .2s;
+    
+    #vasuttori {
+        color: $color-white;
+    }
+
+    #tatai {
+        font-weight: 600;
+        color: $color-white;
+    }
+}
+
+
+/* Facebook */
+.fa {
+    padding: 8px;
+    font-size: 15px;
+    width: 32px;
+    text-align: center;
+    background: rgba($color-white, 0.8);
+    color: $color-black;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.fa:hover, #tatai:hover {
+    color: rgba($color-white, 0.7);
+}
+
+.fa:hover {
+    background: #3B5998;
+    color: $color-white;
+}
+
+.footerline p {
+    font-size: 0.82rem;
+    color: $color-gold-light;
+}

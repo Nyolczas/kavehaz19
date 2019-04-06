@@ -31,7 +31,7 @@ function navbar($pageName)
     echo '<!-- navbar -->
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark navbar-fixed-top navbar-center">
     <div class="container">
-    <a class="navbar-brand" href="menu.html">
+    <a class="navbar-brand" href="menu.php">
     <img alt="Utasellátó logó" src="img/ue-logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
@@ -41,27 +41,27 @@ function navbar($pageName)
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto ">
     <li class="nav-item ' . $isActive[0] . '">
-    <a class="nav-link" href="index.html"> főoldal
+    <a class="nav-link" href="index.php"> főoldal
     </a>
     </li>
     <li class="nav-item ' . $isActive[1] . '">
-    <a class="nav-link" href="rolunk.html">rólunk</a>
+    <a class="nav-link" href="rolunk.php">rólunk</a>
     </li>
     <li class="nav-item ' . $isActive[2] . '">
-    <a class="nav-link" href="menu.html">menü</a>
+    <a class="nav-link" href="menu.php">menü</a>
     </li>
     <li class="nav-item ' . $isActive[3] . '">
-    <a class="nav-link" href="galeria.html">galéria</a>
+    <a class="nav-link" href="galeria.php">galéria</a>
     </li>
     </ul>
     <ul class="navbar-nav navbar-right ">
     <li class="nav-item ' . $isActive[4] . '">
-    <a class="nav-link" href="rendezvenyek.html">rendezvényszervezés
+    <a class="nav-link" href="rendezvenyek.php">rendezvényszervezés
     <span class="sr-only">(current)</span>
     </a>
     </li>
     <li class="nav-item ' . $isActive[5] . '">
-    <a class="nav-link" href="kapcsolat.html">kapcsolat</a>
+    <a class="nav-link" href="kapcsolat.php">kapcsolat</a>
     </li>
     </ul>
     </div>

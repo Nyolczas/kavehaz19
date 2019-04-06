@@ -1,0 +1,28 @@
+.show {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .show {
+        display: block;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.balrazar {
+    text-align: left;
+}
+
+.jobbrazar {
+    text-align: right;
+    display: table;
+    margin: auto;
+}
+
+.dolt {
+    font-style: italic;
+}
+

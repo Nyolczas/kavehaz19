@@ -1,0 +1,37 @@
+.keret {
+    border: 2px solid $color-csoki;
+    margin-bottom: 2.5rem;
+    padding: 0;
+}
+
+.keret2 {
+    border: 1px solid $color-mogyoro;
+    margin: 6px;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+hr {
+    border-color: $color-gold-light;
+}
+
+.deko-side {
+    margin: -0.3rem 0.5rem 0 0.5rem;
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .cim .deko-side {
+        display: inline;
+    }
+}
+
+.deko-side-constant {
+    margin: -0.3rem 0.5rem 0 0.5rem;
+}
+
+.deko-hori {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 100%;
+}
