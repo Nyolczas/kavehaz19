@@ -5,9 +5,13 @@
     padding-top: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footerline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
     margin: 12px;
     transition: .2s;
     
@@ -20,6 +24,12 @@
         font-weight: 600;
         color: $color-white;
     }
+
+    p {
+        font-size: 0.82rem;
+        color: $color-gold-light;
+        margin-bottom: 0;
+    }
 }
 
 
@@ -28,6 +38,7 @@
     padding: 8px;
     font-size: 15px;
     width: 32px;
+    height: 32px;
     text-align: center;
     background: rgba($color-white, 0.8);
     color: $color-black;
@@ -44,7 +55,3 @@
     color: $color-white;
 }
 
-.footerline p {
-    font-size: 0.82rem;
-    color: $color-gold-light;
-}

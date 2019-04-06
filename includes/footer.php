@@ -6,9 +6,7 @@
       </div>
       <div class="footerline">
         <a href="kapcsolat.php" id="tatai">1142 Budapest Tatai út 95. </a>
-      </div>
-      <div class="footerline">
-         <span id="vasuttori">Magyar Vasúttörténeti Park</span> 
+        <div id="vasuttori"> Magyar Vasúttörténeti Park</div> 
       </div>
       <div class="footerline">
         <p>&copy

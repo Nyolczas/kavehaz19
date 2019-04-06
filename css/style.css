@@ -100,9 +100,13 @@ hr {
   text-decoration: none;
   padding-top: 8px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .footerline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
   margin: 12px;
   transition: .2s; }
   .footerline #vasuttori {
@@ -111,12 +115,16 @@ hr {
   .footerline #tatai {
     font-weight: 600;
     color: white; }
+  .footerline p {
+    font-size: 0.82rem;
+    color: #E5C282;
+    margin-bottom: 0; }
 
 /* Facebook */
 .fa {
-  padding: 8px;
   font-size: 15px;
   width: 32px;
+  height: 32px;
   text-align: center;
   background: rgba(255, 255, 255, 0.8);
   color: black;
@@ -129,10 +137,6 @@ hr {
 .fa:hover {
   background: #3B5998;
   color: white; }
-
-.footerline p {
-  font-size: 0.82rem;
-  color: #E5C282; }
 
 #fosav {
   background-image: url(../img/redHead.jpg);
