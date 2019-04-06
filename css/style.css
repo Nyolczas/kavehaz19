@@ -95,10 +95,9 @@ hr {
   max-width: 100%; }
 
 .footer {
-  height: 150px;
+  height: 60px;
   text-align: center;
   text-decoration: none;
-  padding-top: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -111,10 +110,12 @@ hr {
   transition: .2s; }
   .footerline #vasuttori {
     color: #E5C282;
-    font-size: 0.82rem; }
+    font-size: 0.82rem;
+    padding: 0 0.3rem; }
   .footerline #tatai {
     font-weight: 600;
-    color: white; }
+    color: white;
+    padding: 0 0.3rem; }
   .footerline p {
     font-size: 0.82rem;
     color: #E5C282;
@@ -122,11 +123,12 @@ hr {
 
 /* Facebook */
 .fa {
+  padding: 8px;
   font-size: 15px;
   width: 32px;
   height: 32px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.8);
+  background: #E5C282;
   color: black;
   border-radius: 50%;
   transition: .2s; }
@@ -165,7 +167,7 @@ main {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
-  margin: 0 auto -150px;
+  margin: 0 auto -60px;
   /* Pad bottom by footer height */
   padding: 0 0 150px; }
 
