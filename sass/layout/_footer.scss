@@ -3,6 +3,8 @@
     text-align: center;
     text-decoration: none;
     padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footerline {
@@ -10,7 +12,8 @@
     transition: .2s;
     
     #vasuttori {
-        color: $color-white;
+        color: $color-gold-light;
+        font-size: 0.82rem;
     }
 
     #tatai {
