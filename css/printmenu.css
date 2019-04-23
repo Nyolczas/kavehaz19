@@ -1,0 +1,19 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 100%; }
+
+body {
+  background-image: url(../img/bg-pattern.jpg);
+  background-size: 120px;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-family: 'Georgia', serif; }

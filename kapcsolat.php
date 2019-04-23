@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <?php include "./includes/navbar.php"; navbar("index"); ?>
+    <?php $page = 'kapcsolat'; include "./includes/navbar.php"; ?>
     <main>
         <?php include "./includes/header.php"; ?>
     </main>
